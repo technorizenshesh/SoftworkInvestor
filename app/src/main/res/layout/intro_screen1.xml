@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+
+    <RelativeLayout
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/image1"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Best app for Transfer\n small amount to big amount"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_description"
+        android:layout_below="@+id/tv_title"
+        android:textSize="@dimen/_11sdp"
+        android:textStyle="normal"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Lorem ipsum dolor sit amet, consectetur  elit. A nulla erat eget at ut id enim turpis."        />
+</RelativeLayout>

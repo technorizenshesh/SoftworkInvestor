@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_medium"
+            android:text="My Account"
+            android:textColor="@color/white"
+            android:textFontWeight="600"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/notification" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/background_edit_text"
+                android:elevation="2dp"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/profile_icon" />
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:drawableEnd="@drawable/edit"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Angila rodes"
+                android:textColor="@color/white"
+                android:textFontWeight="600"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/poppins_medium"
+                android:text="+91 99856 41214"
+                android:textColor="@color/gray"
+                android:textFontWeight="600"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button"
+                android:drawableStart="@drawable/profile"
+                android:drawablePadding="10dp"
+                android:elevation="2dp"
+                android:fontFamily="@font/poppins_regular"
+                android:padding="10dp"
+                android:text="My account"
+                android:textColor="@color/white"
+                android:textFontWeight="400"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewMyInvestment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button"
+                android:drawableStart="@drawable/my_investment"
+                android:drawablePadding="10dp"
+                android:elevation="2dp"
+                android:fontFamily="@font/poppins_regular"
+                android:padding="10dp"
+                android:text="My Investment"
+                android:textColor="@color/white"
+                android:textFontWeight="400"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button"
+                android:drawableStart="@drawable/payments_method"
+                android:drawablePadding="10dp"
+                android:elevation="2dp"
+                android:fontFamily="@font/poppins_regular"
+                android:padding="10dp"
+                android:text="Payment Methods"
+                android:textColor="@color/white"
+                android:textFontWeight="600"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button"
+                android:drawableStart="@drawable/supports"
+                android:drawablePadding="10dp"
+                android:elevation="2dp"
+                android:fontFamily="@font/poppins_regular"
+                android:padding="10dp"
+                android:text="Supports"
+                android:textColor="@color/white"
+                android:textFontWeight="400"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button"
+                android:drawableStart="@drawable/terms_of_service"
+                android:drawablePadding="10dp"
+                android:elevation="2dp"
+                android:fontFamily="@font/poppins_regular"
+                android:padding="10dp"
+                android:text="Terms of service"
+                android:textColor="@color/white"
+                android:textFontWeight="400"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button"
+                android:drawableStart="@drawable/privacy"
+                android:drawablePadding="10dp"
+                android:elevation="2dp"
+                android:fontFamily="@font/poppins_regular"
+                android:padding="10dp"
+                android:text="Privacy policy"
+                android:textColor="@color/white"
+                android:textFontWeight="400"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/background_button"
+                android:drawableStart="@drawable/logout"
+                android:drawablePadding="10dp"
+                android:elevation="2dp"
+                android:fontFamily="@font/poppins_regular"
+                android:padding="10dp"
+                android:text="Logout"
+                android:textColor="@color/white"
+                android:textFontWeight="400"
+                android:textSize="18sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

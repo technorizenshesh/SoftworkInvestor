@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SideHustleInvestor</string>
+    <string name="login_to_soft_work">Login to <font color="#FFCA7A">Side Hustle</font></string>
+    <string name="sign_up_to_soft_work">Sign up to <font color="#FFCA7A">Side Hustle</font></string>
+    <string name="view_all"><u>View All</u></string>
+    <string name="view_more"><u>View More</u></string>
+    <string name="enter_first">Enter User Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_valid_email">Enter valid email</string>
+    <string name="please_enter_mobile_number">Enter mobile number</string>
+    <string name="please_enter_pass">Enter country name</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="msg_noInternet">Internet Connection Not Available</string>
+    <string name="all_permissions">Please allow all permissions.</string>
+    <string name="on_error">On error</string>
+    <string name="please_enter_com_otp">Please Enter Otp.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="permission_denied_boo">Permission Denied</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
